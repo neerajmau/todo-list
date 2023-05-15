@@ -64,7 +64,7 @@ const TodoList = () => {
           {list?.length > 0 && (
             <div className={style.list_header}>
               <div>Title</div>
-              <div>Completion Status</div>
+              <div></div>
             </div>
           )}
           <div className={style.list_cantainer}>
